@@ -239,6 +239,51 @@ header #menu{
 
 
 
+.review{
+    min-height: 100vh;
+}
+.review .review-slider{
+    margin: 2rem auto;
+    width: 80%;
+}
+.review .review-slider .box{
+    text-align: center;
+    padding: 1.5rem;
+    margin: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border: .1rem solid rgba(0, 0, 0, .1);
+}
+
+.review .review-slider  .box img{
+    height: 10rem;
+    width: 10rem;
+    margin: 1rem auto;
+    border-radius: 50%;
+    object-fit: cover;
+
+
+}
+
+.review .review-slider .box h3{
+
+    color: #444;
+    font-size: 2rem;
+}
+.review .review-slider .box p{
+    color: #666;
+    font-size: 1.5re;
+    padding: 2rem;
+
+
+}
+.review .review-slider.box .stars i {
+    color: var(--blue);
+    font-size: 1.5rem;
+
+}
+
+
+
 
 
 
